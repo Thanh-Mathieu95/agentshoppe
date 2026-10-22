@@ -1,0 +1,15 @@
+{
+  "note": "Quy định rút gọn cho demo",
+  "common_banned": ["chữa", "trị bệnh", "thần dược", "cam kết khỏi", "số 1", "tốt nhất", "rẻ nhất"],
+  "honey": {
+    "rules": [
+      {"code": "FOOD_NO_HEALTH_CLAIM", "say": "Mật ong là thực phẩm. Không được nói là chữa bệnh."},
+      {"code": "HONEY_INFANT", "say": "Tin đăng sẽ có dòng: không dùng cho trẻ dưới một tuổi."}
+    ],
+    "auto_append": "Không dùng cho trẻ dưới 1 tuổi."
+  },
+  "tea": {"rules": [{"code": "FOOD_NO_HEALTH_CLAIM", "say": "Chè là thực phẩm. Không được nói là chữa bệnh."}]},
+  "dried_food": {"rules": [{"code": "FOOD_EXPIRY", "say": "Đồ ăn phải ghi hạn dùng rõ ràng."}]},
+  "candle": {"rules": [{"code": "FIRE_SAFETY", "say": "Tin đăng sẽ có dòng: không để nến cháy khi không có người."}], "auto_append": "Không để nến cháy khi không có người trông."},
+  "handicraft": {"rules": []}
+}

@@ -1,0 +1,11 @@
+{
+  "note": "Biểu phí giả định để minh họa, không phải biểu phí thật của Shopee",
+  "commission_rate": 0.08,
+  "payment_fee_rate": 0.04,
+  "fixed_fee_per_order": 0,
+  "shipping_estimates": {
+    "liquid_glass_500ml": {"weight_g": 800, "fee": 30000},
+    "dry_light": {"weight_g": 400, "fee": 22000},
+    "fragile_small": {"weight_g": 500, "fee": 25000}
+  }
+}

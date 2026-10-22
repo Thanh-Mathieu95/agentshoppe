@@ -1,0 +1,105 @@
+{
+  "honey": {
+    "label": "Mật ong",
+    "keywords": ["mật ong", "mật"],
+    "container_word": "chai",
+    "fields": [
+      {"key": "name",         "risk": "red",    "ask": "Sản phẩm của {h} tên là gì ạ?", "label": "tên"},
+      {"key": "price",        "risk": "red",    "ask": "Mỗi chai {h} bán bao nhiêu tiền?", "unit": "VND", "label": "giá"},
+      {"key": "volume_ml",    "risk": "red",    "ask": "Mỗi chai bao nhiêu? Nửa lít hay một lít?", "unit": "ml", "label": "dung tích"},
+      {"key": "stock",        "risk": "red",    "ask": "{H} đang có bao nhiêu chai?", "unit": "item", "label": "số lượng"},
+      {"key": "origin",       "risk": "yellow", "ask": "Mật ong lấy ở đâu ạ?", "label": "nơi lấy mật"},
+      {"key": "container",    "risk": "yellow", "ask": "Đựng chai nhựa hay chai thủy tinh?", "label": "loại chai", "choices": ["chai thủy tinh", "chai nhựa"]},
+      {"key": "harvest_time", "risk": "yellow", "ask": "Mật ong lấy vào tháng nào?", "label": "tháng lấy mật"},
+      {"key": "storage",      "risk": "green",  "ask": "Bảo quản thế nào ạ? Không biết thì {h} nói 'bỏ qua'.", "label": "cách bảo quản"}
+    ],
+    "allowed_units": ["ml"],
+    "fragile_liquid": true,
+    "price_unit_hint": "per_container",
+    "shipping_key": "liquid_glass_500ml",
+    "packaging_cost": 15000,
+    "packing_tip": "Nhớ quấn giấy chống sốc vì là chai thủy tinh.",
+    "visual": "honey"
+  },
+  "tea": {
+    "label": "Chè",
+    "keywords": ["chè", "trà"],
+    "container_word": "gói",
+    "fields": [
+      {"key": "name",         "risk": "red",    "ask": "Chè của {h} tên là gì ạ?", "label": "tên"},
+      {"key": "price",        "risk": "red",    "ask": "Mỗi gói {h} bán bao nhiêu tiền?", "unit": "VND", "label": "giá"},
+      {"key": "weight_g",     "risk": "red",    "ask": "Mỗi gói nặng bao nhiêu? Mấy lạng ạ?", "unit": "g", "label": "khối lượng"},
+      {"key": "stock",        "risk": "red",    "ask": "{H} đang có bao nhiêu gói?", "unit": "item", "label": "số lượng"},
+      {"key": "origin",       "risk": "yellow", "ask": "Chè hái ở đâu ạ?", "label": "nơi hái"},
+      {"key": "processing",   "risk": "yellow", "ask": "Chè sao tay hay sao máy ạ?", "label": "cách sao", "choices": ["sao tay", "sao máy"]},
+      {"key": "harvest_time", "risk": "yellow", "ask": "Chè hái vào tháng nào?", "label": "tháng hái"},
+      {"key": "storage",      "risk": "green",  "ask": "Bảo quản thế nào ạ? Không biết thì {h} nói 'bỏ qua'.", "label": "cách bảo quản"}
+    ],
+    "allowed_units": ["g"],
+    "fragile_liquid": false,
+    "shipping_key": "dry_light",
+    "packaging_cost": 5000,
+    "packing_tip": "Nhớ buộc kín miệng túi cho chè khỏi ẩm.",
+    "visual": "tea"
+  },
+  "handicraft": {
+    "label": "Đồ thủ công",
+    "keywords": ["thổ cẩm", "khăn", "túi", "đan", "dệt", "thêu", "giỏ", "mây tre"],
+    "container_word": "cái",
+    "fields": [
+      {"key": "name",     "risk": "red",    "ask": "Sản phẩm của {h} tên là gì ạ?", "label": "tên"},
+      {"key": "price",    "risk": "red",    "ask": "Mỗi cái {h} bán bao nhiêu tiền?", "unit": "VND", "label": "giá"},
+      {"key": "stock",    "risk": "red",    "ask": "{H} đang có bao nhiêu cái?", "unit": "item", "label": "số lượng"},
+      {"key": "material", "risk": "yellow", "ask": "Làm bằng vải gì hay chất liệu gì ạ?", "label": "chất liệu"},
+      {"key": "size",     "risk": "yellow", "ask": "To cỡ nào ạ? Dài bao nhiêu phân?", "label": "kích thước"},
+      {"key": "color",    "risk": "yellow", "ask": "Màu gì là chính ạ?", "label": "màu"},
+      {"key": "maker",    "risk": "green",  "ask": "Ai làm ra sản phẩm này ạ? Không muốn nói thì 'bỏ qua'.", "label": "người làm"}
+    ],
+    "allowed_units": [],
+    "fragile_liquid": false,
+    "shipping_key": "dry_light",
+    "packaging_cost": 5000,
+    "packing_tip": "Gấp gọn và cho vào túi ni lông chống ướt.",
+    "visual": "handicraft"
+  },
+  "candle": {
+    "label": "Nến thơm",
+    "keywords": ["nến"],
+    "container_word": "hũ",
+    "fields": [
+      {"key": "name",       "risk": "red",    "ask": "Nến của {h} tên là gì ạ?", "label": "tên"},
+      {"key": "price",      "risk": "red",    "ask": "Mỗi hũ {h} bán bao nhiêu tiền?", "unit": "VND", "label": "giá"},
+      {"key": "weight_g",   "risk": "red",    "ask": "Mỗi hũ nặng bao nhiêu gam?", "unit": "g", "label": "khối lượng"},
+      {"key": "stock",      "risk": "red",    "ask": "{H} đang có bao nhiêu hũ?", "unit": "item", "label": "số lượng"},
+      {"key": "scent",      "risk": "yellow", "ask": "Nến mùi gì ạ?", "label": "mùi"},
+      {"key": "burn_hours", "risk": "yellow", "ask": "Đốt được bao nhiêu giờ ạ?", "label": "thời gian cháy"},
+      {"key": "storage",    "risk": "green",  "ask": "Bảo quản thế nào ạ? Không biết thì {h} nói 'bỏ qua'.", "label": "cách bảo quản"}
+    ],
+    "allowed_units": ["g"],
+    "fragile_liquid": false,
+    "shipping_key": "fragile_small",
+    "packaging_cost": 8000,
+    "packing_tip": "Hũ thủy tinh nên quấn giấy chống sốc.",
+    "visual": "candle"
+  },
+  "dried_food": {
+    "label": "Đồ khô",
+    "keywords": ["gác bếp", "thịt trâu", "lạp xưởng", "măng khô", "nấm", "khô"],
+    "container_word": "gói",
+    "fields": [
+      {"key": "name",        "risk": "red",    "ask": "Sản phẩm của {h} tên là gì ạ?", "label": "tên"},
+      {"key": "price",       "risk": "red",    "ask": "Mỗi gói {h} bán bao nhiêu tiền?", "unit": "VND", "label": "giá"},
+      {"key": "weight_g",    "risk": "red",    "ask": "Mỗi gói nặng bao nhiêu? Nửa cân hay một cân?", "unit": "g", "label": "khối lượng"},
+      {"key": "stock",       "risk": "red",    "ask": "{H} đang có bao nhiêu gói?", "unit": "item", "label": "số lượng"},
+      {"key": "origin",      "risk": "yellow", "ask": "Làm ở đâu ạ?", "label": "nơi làm"},
+      {"key": "expiry",      "risk": "yellow", "ask": "Để được bao lâu thì hỏng ạ?", "label": "hạn dùng"},
+      {"key": "storage",     "risk": "green",  "ask": "Bảo quản thế nào ạ? Không biết thì {h} nói 'bỏ qua'.", "label": "cách bảo quản"}
+    ],
+    "allowed_units": ["g"],
+    "fragile_liquid": false,
+    "shipping_key": "dry_light",
+    "packaging_cost": 6000,
+    "packing_tip": "Hút chân không hoặc buộc kín túi trước khi gửi.",
+    "visual": "dried_food"
+  }
+}

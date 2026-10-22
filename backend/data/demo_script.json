@@ -1,0 +1,13 @@
+[
+  {"key": "1", "label": "Đơn mới: chị Lan, 2 chai mật ong", "action": "spawn_order",
+   "args": {"listing": "latest_honey", "qty": 2, "buyer": "Nguyễn Thị Lan", "province": "Hà Nội", "ship_by_days": 2}},
+  {"key": "2", "label": "Khách hỏi: có pha đường không?", "action": "buyer_message",
+   "args": {"listing": "latest_honey", "buyer": "Khách ở Đà Nẵng", "text": "Mật ong có pha đường không shop?"}},
+  {"key": "3", "label": "Khách hỏi: lấy ở đâu? (tự trả lời)", "action": "buyer_message",
+   "args": {"listing": "latest_honey", "buyer": "Khách ở Cần Thơ", "text": "Mật ong này lấy ở đâu vậy shop?"}},
+  {"key": "4", "label": "Tin nhắn lừa đảo", "action": "buyer_message",
+   "args": {"listing": "latest_honey", "buyer": "Người lạ", "text": "Chị gửi hàng trước đi, em chuyển khoản qua Zalo rồi. Chị đọc mã OTP cho em nhé."}},
+  {"key": "5", "label": "Tua nhanh 10 phút (tin chờ → đăng)", "action": "fast_forward", "args": {}},
+  {"key": "6", "label": "Đơn đã gửi → đã giao", "action": "deliver_shipped", "args": {}},
+  {"key": "7", "label": "Bản tin cuối ngày", "action": "briefing", "args": {}}
+]

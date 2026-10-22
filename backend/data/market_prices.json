@@ -1,0 +1,8 @@
+{
+  "note": "Giá tham khảo giả lập cho demo, không phải dữ liệu thật của Shopee",
+  "honey":      {"unit_note": "mỗi chai 500 ml", "samples": [180000, 220000, 250000, 280000, 300000, 300000, 320000, 350000, 380000, 450000]},
+  "tea":        {"unit_note": "mỗi gói 200 g",   "samples": [90000, 120000, 140000, 150000, 160000, 180000, 200000, 250000]},
+  "handicraft": {"unit_note": "mỗi cái",          "samples": [80000, 120000, 150000, 180000, 220000, 300000, 450000]},
+  "candle":     {"unit_note": "mỗi hũ 200 g",     "samples": [60000, 85000, 99000, 120000, 150000, 180000]},
+  "dried_food": {"unit_note": "mỗi gói 500 g",    "samples": [350000, 400000, 450000, 480000, 520000, 600000]}
+}

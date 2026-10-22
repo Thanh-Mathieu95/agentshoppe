@@ -1,0 +1,121 @@
+{
+  "seller": {
+    "name": "Lò Thị Mai",
+    "honorific": "cô",
+    "mode": "voice",
+    "tts_speed": 0.9,
+    "region": "Hà Giang",
+    "shipping_days": ["tue", "thu"],
+    "guardian_required": false,
+    "guardian_name": "anh Hùng (con trai)",
+    "low_stock_threshold": 3,
+    "shop_name": "Mật Ong & Chè Cô Mai",
+    "avatar": "🍯",
+    "uses_assistant": true,
+    "followers": 1240
+  },
+  "listings": [
+    {
+      "key": "tea_shan",
+      "category": "tea",
+      "status": "published",
+      "title": "Chè Shan tuyết cổ thụ Hà Giang 200g",
+      "views_7d": 140, "sold": 312, "rating": 4.9, "list_price": 220000, "art": "SHAN TUYẾT",
+      "reviews": [[5, "Trần Văn Nam", "Chè thơm, nước vàng sánh. Cô bán hàng rất nhiệt tình."],
+                  [5, "Ngọc Ánh", "Mua lần thứ ba rồi, đóng gói cẩn thận."],
+                  [4, "Hưng", "Vị hơi chát lúc đầu nhưng hậu ngọt."]],
+      "fields": {"name": "Chè Shan tuyết cổ thụ", "price": "180000", "weight_g": "200", "stock": "12",
+                 "origin": "Hoàng Su Phì, Hà Giang", "processing": "sao tay", "harvest_time": "tháng 4", "storage": "để nơi khô ráo"},
+      "description": "Chè Shan tuyết cổ thụ, hái ở Hoàng Su Phì, Hà Giang [name][origin]. Chè sao tay, hái vào tháng 4 [processing][harvest_time]. Mỗi gói 200 gam [weight_g]. Để nơi khô ráo [storage]."
+    },
+    {
+      "key": "honey_mint",
+      "category": "honey",
+      "status": "published",
+      "title": "Mật ong bạc hà Đồng Văn 500ml",
+      "views_7d": 210, "sold": 158, "rating": 4.8, "art": "BẠC HÀ",
+      "reviews": [[5, "Phạm Thu Hà", "Mật thơm mùi bạc hà, chai thủy tinh quấn chống sốc kỹ."],
+                  [5, "Lê Minh", "Đúng như mô tả, giao nhanh."]],
+      "fields": {"name": "Mật ong bạc hà", "price": "450000", "volume_ml": "500", "stock": "2",
+                 "origin": "Đồng Văn, Hà Giang", "container": "chai thủy tinh", "harvest_time": "tháng 11 năm ngoái", "storage": "để nơi thoáng mát"},
+      "description": "Mật ong bạc hà lấy ở Đồng Văn, Hà Giang [name][origin]. Mỗi chai thủy tinh 500 ml [volume_ml][container]. Lấy mật vào tháng 11 năm ngoái [harvest_time]."
+    }
+  ],
+  "other_shops": [
+    {"name": "Giàng Thị Mỷ", "shop_name": "Thổ Cẩm Sa Pa – Chị Mỷ", "avatar": "🧶", "region": "Lào Cai", "followers": 860,
+     "listings": [
+       {"category": "handicraft", "title": "Khăn thổ cẩm Mông dệt tay 180cm", "art": "KHĂN MÔNG", "sold": 421, "rating": 4.9, "list_price": 350000,
+        "fields": {"name": "Khăn thổ cẩm Mông", "price": "280000", "stock": "25", "material": "Sợi lanh nhuộm chàm", "size": "Dài 180 phân", "color": "Đỏ, đen, vàng"},
+        "description": "Khăn thổ cẩm Mông dệt tay [name]. Sợi lanh nhuộm chàm [material]. Dài 180 phân [size]. Màu chính đỏ, đen, vàng [color].",
+        "reviews": [[5, "Mai Anh", "Hoa văn đẹp lắm, quàng rất ấm."], [5, "Tuấn", "Mua làm quà cho mẹ, mẹ rất thích."]]},
+       {"category": "handicraft", "title": "Túi đeo chéo thổ cẩm Sa Pa", "art": "TÚI THỔ CẨM", "sold": 233, "rating": 4.7,
+        "fields": {"name": "Túi đeo chéo thổ cẩm", "price": "190000", "stock": "14", "material": "Vải thổ cẩm", "size": "25 x 20 phân", "color": "Nhiều màu"},
+        "description": "Túi đeo chéo thổ cẩm [name]. Vải thổ cẩm [material], cỡ 25 x 20 phân [size].",
+        "reviews": [[4, "Hạnh", "Túi xinh, dây hơi dài chút."]]}
+     ]},
+    {"name": "Lò Văn Páo", "shop_name": "Đặc Sản Tây Bắc Nhà Páo", "avatar": "🥩", "region": "Sơn La", "followers": 2310,
+     "listings": [
+       {"category": "dried_food", "title": "Thịt trâu gác bếp Sơn La 500g", "art": "TRÂU GÁC BẾP", "sold": 1290, "rating": 4.8, "list_price": 600000,
+        "fields": {"name": "Thịt trâu gác bếp", "price": "520000", "weight_g": "500", "stock": "40", "origin": "Mộc Châu, Sơn La", "expiry": "3 tháng để ngăn mát"},
+        "description": "Thịt trâu gác bếp làm ở Mộc Châu, Sơn La [name][origin]. Mỗi gói 500 gam [weight_g]. Để ngăn mát được 3 tháng [expiry].",
+        "reviews": [[5, "Quang", "Thịt dai, thơm mùi mắc khén."], [4, "Linh", "Hơi cay với mình nhưng ngon."], [5, "Đức", "Hút chân không cẩn thận."]]},
+       {"category": "dried_food", "title": "Lạp xưởng gác bếp Tây Bắc 500g", "art": "LẠP XƯỞNG", "sold": 540, "rating": 4.6,
+        "fields": {"name": "Lạp xưởng gác bếp", "price": "185000", "weight_g": "500", "stock": "30", "origin": "Sơn La", "expiry": "2 tháng để ngăn mát"},
+        "description": "Lạp xưởng gác bếp làm ở Sơn La [name][origin]. Mỗi gói 500 gam [weight_g].",
+        "reviews": [[5, "Thảo", "Nướng than thơm cả nhà."]]}
+     ]},
+    {"name": "Nguyễn Thị Hoa", "shop_name": "Trà Tân Cương Cô Hoa", "avatar": "🍵", "region": "Thái Nguyên", "followers": 3120,
+     "listings": [
+       {"category": "tea", "title": "Chè Tân Cương Thái Nguyên móc câu 200g", "art": "TÂN CƯƠNG", "sold": 2045, "rating": 4.9, "list_price": 180000,
+        "fields": {"name": "Chè Tân Cương móc câu", "price": "150000", "weight_g": "200", "stock": "80", "origin": "Tân Cương, Thái Nguyên", "processing": "sao tay", "harvest_time": "tháng 9"},
+        "description": "Chè Tân Cương móc câu hái ở Tân Cương, Thái Nguyên [name][origin]. Chè sao tay [processing]. Mỗi gói 200 gam [weight_g].",
+        "reviews": [[5, "Bác Tư", "Uống quen vị chè này lâu rồi."], [5, "Hải", "Cánh chè xoăn đẹp."]]}
+     ]},
+    {"name": "Trần Minh Thư", "shop_name": "Nến Thơm Lá Rừng Đà Lạt", "avatar": "🕯️", "region": "Lâm Đồng", "followers": 640,
+     "listings": [
+       {"category": "candle", "title": "Nến thơm sả chanh hũ thủy tinh 200g", "art": "SẢ CHANH", "sold": 380, "rating": 4.7, "list_price": 129000,
+        "fields": {"name": "Nến thơm sả chanh", "price": "99000", "weight_g": "200", "stock": "50", "scent": "Sả chanh", "burn_hours": "40 giờ"},
+        "description": "Nến thơm sả chanh [name][scent]. Hũ 200 gam [weight_g], cháy khoảng 40 giờ [burn_hours]. Không để nến cháy khi không có người trông. [policy]",
+        "reviews": [[5, "Vy", "Mùi dịu, đuổi muỗi tốt."]]},
+       {"category": "candle", "title": "Nến thơm quế hồi hũ gỗ 200g", "art": "QUẾ HỒI", "sold": 122, "rating": 4.6,
+        "fields": {"name": "Nến thơm quế hồi", "price": "120000", "weight_g": "200", "stock": "20", "scent": "Quế hồi", "burn_hours": "40 giờ"},
+        "description": "Nến thơm quế hồi [name][scent]. Hũ 200 gam [weight_g].",
+        "reviews": [[4, "Trang", "Mùi Tết rất ấm cúng."]]}
+     ]},
+    {"name": "Y Bluh Niê", "shop_name": "Ong Mật Tây Nguyên", "avatar": "🍯", "region": "Đắk Lắk", "followers": 980,
+     "listings": [
+       {"category": "honey", "title": "Mật ong hoa cà phê Buôn Ma Thuột 1 lít", "art": "HOA CÀ PHÊ", "variant": "big", "sold": 760, "rating": 4.8, "list_price": 320000,
+        "fields": {"name": "Mật ong hoa cà phê", "price": "265000", "volume_ml": "1000", "stock": "35", "origin": "Buôn Ma Thuột, Đắk Lắk", "container": "chai nhựa", "harvest_time": "tháng 3"},
+        "description": "Mật ong hoa cà phê lấy ở Buôn Ma Thuột, Đắk Lắk [name][origin]. Mỗi chai nhựa 1 lít [volume_ml][container]. Không dùng cho trẻ dưới 1 tuổi. [policy]",
+        "reviews": [[5, "Khoa", "Mật đặc, thơm hoa cà phê."], [4, "Nhung", "Chai nhựa hơi mỏng nhưng không rò."]]}
+     ]}
+  ],
+  "faqs": [
+    {"listing": "honey_mint", "question": "mật ong có bị đặc lại không", "answer": "Dạ, trời lạnh mật ong bạc hà có thể đặc lại, đó là bình thường ạ."}
+  ],
+  "orders": [
+    {"external_id": "SPE-1001", "listing": "tea_shan", "qty": 2, "buyer_name": "Trần Văn Nam", "buyer_province": "Hà Nội",
+     "status": "accepted", "created_days_ago": 0, "ship_by_days": 1},
+    {"external_id": "SPE-0998", "listing": "honey_mint", "qty": 1, "buyer_name": "Phạm Thu Hà", "buyer_province": "Hải Phòng",
+     "status": "shipped", "created_days_ago": 2, "ship_by_days": -1, "tracking_code": "SPXV88771234"},
+    {"external_id": "SPE-0990", "listing": "honey_mint", "qty": 2, "buyer_name": "Lê Minh", "buyer_province": "Đà Nẵng",
+     "status": "delivered", "created_days_ago": 5, "ship_by_days": -3, "tracking_code": "SPXV55513579"},
+    {"external_id": "SPE-0987", "listing": "tea_shan", "qty": 1, "buyer_name": "Vũ Hoa", "buyer_province": "TP. Hồ Chí Minh",
+     "status": "delivered", "created_days_ago": 6, "ship_by_days": -4, "tracking_code": "SPXV22224444"}
+  ],
+  "buyer_messages": [
+    {"listing": "tea_shan", "buyer_name": "Khách ở Huế", "text": "Chè này pha được mấy lần nước vậy shop?", "status": "waiting_seller", "hours_ago": 14}
+  ],
+  "analytics": {
+    "orders_last_7d": {"honey_mint": 3, "tea_shan": 3},
+    "buyer_search_terms": {
+      "honey": ["mật ong rừng", "mật ong bạc hà", "mật ong Hà Giang", "mật ong nguyên chất"],
+      "tea": ["chè shan tuyết", "chè cổ thụ", "trà Hà Giang"]
+    },
+    "co_purchase_pairs": [{"a": "honey", "b": "tea", "share": 0.35, "note": "35% người mua mật ong cũng mua chè"}],
+    "season_calendar": {
+      "honey": [{"name": "mật ong bạc hà", "months": [10, 11, 12], "listing": "honey_mint"}],
+      "tea": [{"name": "chè xuân", "months": [3, 4], "listing": "tea_shan"}]
+    }
+  }
+}
